@@ -1,0 +1,12 @@
+name: "Test this action"
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: echo $PATH
+    - uses: ./
+      with:
+        regexp: '\brust\b'
+    - run: echo $PATH

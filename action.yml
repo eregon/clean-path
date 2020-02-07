@@ -1,0 +1,10 @@
+name: 'Clean PATH'
+description: 'A GitHub Action to clean the PATH'
+inputs:
+  regexp:
+    description: 'Regular expression for PATH entries to remove'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
