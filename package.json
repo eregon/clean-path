@@ -9,7 +9,7 @@
   "author": "Benoit Daloze",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.9.1"
+    "@actions/core": "^2"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.0"
